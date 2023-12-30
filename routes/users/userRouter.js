@@ -4,8 +4,8 @@ const {
   loginUser,
   checkUser,
 } = require("../../controller/users/userController");
-const upload = require("../../middlemare/singleFileUpload");
-const checkedLogin = require("../../middlemare/checkedLogin");
+const upload = require("../../middlewares/singleFileUpload");
+const checkedLogin = require("../../middlewares/checkedLogin");
 
 const router = express.Router();
 

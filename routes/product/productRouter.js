@@ -10,8 +10,8 @@ const {
   getProductByCategory,
   searchProducts,
 } = require("../../controller/product/productController");
-const upload = require("../../middlemare/singleFileUpload");
-const checkedLogin = require("../../middlemare/checkedLogin");
+const upload = require("../../middlewares/singleFileUpload");
+const checkedLogin = require("../../middlewares/checkedLogin");
 const router = express.Router();
 
 //routes for admin dashboard
