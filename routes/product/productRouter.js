@@ -32,7 +32,7 @@ router.patch(
 router.delete("/delete-product/:productId", checkedLogin, deleteProduct);
 
 //routes for users
-router.get("/featue-products", getFeatureProduct);
+router.get("/featured-products", getFeatureProduct);
 router.get("/product-by-category/:categoryId", getProductByCategory);
 
 //common
