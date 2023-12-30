@@ -6,13 +6,8 @@ Welcome to the Wholesale Mart E-commerce Server, a backend API built with Expres
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Configuration](#configuration)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
