@@ -7,8 +7,8 @@ const {
   updateBrand,
   deleteBrand,
 } = require("../../controller/brand/brandController");
-const upload = require("../../middlemare/singleFileUpload");
-const checkedLogin = require("../../middlemare/checkedLogin");
+const upload = require("../../middlewares/singleFileUpload");
+const checkedLogin = require("../../middlewares/checkedLogin");
 const router = express.Router();
 
 router.get("/all", getAllBrands);

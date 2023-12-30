@@ -8,8 +8,8 @@ const {
   updateCategory,
   getCategoriesByBrandId,
 } = require("../../controller/category/categoryController");
-const upload = require("../../middlemare/singleFileUpload");
-const checkedLogin = require("../../middlemare/checkedLogin");
+const upload = require("../../middlewares/singleFileUpload");
+const checkedLogin = require("../../middlewares/checkedLogin");
 const router = express.Router();
 
 router.get("/all", getCategories);

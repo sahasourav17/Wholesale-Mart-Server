@@ -15,7 +15,7 @@ const orderRouter = require("./routes/order/orderRouter");
 
 const app = express();
 
-//common middlemare
+//common middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());

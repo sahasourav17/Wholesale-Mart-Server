@@ -4,7 +4,7 @@ const {
   orderUpdateStatus,
   getUserOrder,
 } = require("../../controller/order/orderController");
-const checkedLogin = require("../../middlemare/checkedLogin");
+const checkedLogin = require("../../middlewares/checkedLogin");
 
 const router = express.Router();
 
