@@ -55,6 +55,10 @@ app.use((err, req, res, next) => {
   }
 });
 
+app.get("/health", (req, res) => {
+  res.status(200).json("health is good");
+});
+
 //listen app
 app.listen(port, () => {
   console.log(`listening to port on ${port}`);
