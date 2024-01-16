@@ -47,4 +47,4 @@ CLOUDINARY_API_SECRET=your CLOUDINARY_API_SECRET
 
 ## Contributing
 
-If you have any suggestions on what to improve this website, please make a issue share your ideas and create your pull request.
+If you have any suggestions on what to improve this, please make a issue share your ideas and create your pull request.
